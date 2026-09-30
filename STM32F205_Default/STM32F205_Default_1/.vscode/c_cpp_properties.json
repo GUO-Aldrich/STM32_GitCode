@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "STM32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32F2xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F2xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F2xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "C:/Users/Liyh1/.eide/tools/gcc_arm/arm-none-eabi/include",
+                "C:/Users/Liyh1/.eide/tools/gcc_arm/lib/gcc/arm-none-eabi/15.2.1/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32F205xx"
+            ],
+            "compilerPath": "C:/Users/Liyh1/.eide/tools/gcc_arm/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

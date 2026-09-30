@@ -1,0 +1,29 @@
+-mcpu=cortex-m3 -mthumb -T c:/Users/Liyh1/Desktop/STM32_GitCode/STM32F205_Default/STM32F205_Default/STM32F205xx_FLASH.ld -Wl,--gc-sections -Wl,--print-memory-usage --specs=nano.specs --specs=nosys.specs
+-Wl,-Map=./build/Debug/STM32F205_Default.map
+-o ./build/Debug/STM32F205_Default.elf ./build/Debug/.obj/Core/Src/gpio.o
+./build/Debug/.obj/Core/Src/main.o
+./build/Debug/.obj/Core/Src/stm32f2xx_hal_msp.o
+./build/Debug/.obj/Core/Src/stm32f2xx_it.o
+./build/Debug/.obj/Core/Src/syscalls.o
+./build/Debug/.obj/Core/Src/sysmem.o
+./build/Debug/.obj/Core/Src/system_stm32f2xx.o
+./build/Debug/.obj/Core/Src/usart.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_cortex.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_dma_ex.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_exti.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_flash_ex.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_gpio.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_pwr_ex.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_rcc_ex.o
+./build/Debug/.obj/Drivers/STM32F2xx_HAL_Driver/Src/stm32f2xx_hal_uart.o
+./build/Debug/.obj/Source/serial/serial.o
+./build/Debug/.obj/Source/shell/cmd.o
+./build/Debug/.obj/Source/shell/ring.o
+./build/Debug/.obj/Source/shell/shell.o
+./build/Debug/.obj/Source/shell/shell_ext.o
+./build/Debug/.obj/startup_stm32f205xx.o -lm

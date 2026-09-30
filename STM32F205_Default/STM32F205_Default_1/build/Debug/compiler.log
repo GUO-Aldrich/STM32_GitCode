@@ -1,0 +1,29 @@
+>>> info
+
+Compiler Full Name: arm-none-eabi-gcc.exe (Arm GNU Toolchain 15.2.Rel1 (Build arm-15.86)) 15.2.1 20251203
+Compiler Version: 15.2.1
+Builder Mode: Incremental
+The amount of C files: 1
+The amount of C++ files: 0
+The amount of Asm files: 0
+
+>>> prebuild
+
+
+
+>>> cc
+
+./Source/serial/cmd.c: In function 'time':
+./Source/serial/cmd.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
+   57 | }
+      | ^
+
+>>> ld
+
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2784 B       128 KB      2.12%
+           FLASH:       22388 B       512 KB      4.27%
+
+
+>>> postbuild
+

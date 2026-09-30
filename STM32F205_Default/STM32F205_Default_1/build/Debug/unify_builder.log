@@ -1,0 +1,178 @@
+[2026-09-30 17:14:52]	[done]
+	build successfully !
+
+[2026-09-30 17:15:51]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': object (.o) file not exist
+
+[2026-09-30 17:15:53]	[done]
+	build successfully !
+
+[2026-09-30 17:19:18]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:19:19]	[done]
+	build successfully !
+
+[2026-09-30 17:19:41]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:19:43]	[done]
+	build successfully !
+
+[2026-09-30 17:23:46]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 17:23:51]	[done]
+	build successfully !
+
+[2026-09-30 17:24:13]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 17:24:18]	[done]
+	build successfully !
+
+[2026-09-30 17:24:30]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 17:24:34]	[done]
+	build successfully !
+
+[2026-09-30 17:27:00]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:27:01]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Source/serial/cmd.o -MMD ./Source/serial/cmd.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Source/serial/cmd.c:50:1: error: unknown type name 'Log'
+   50 | Log log;
+      | ^~~
+./Source/serial/cmd.c:50:5: warning: built-in function 'log' declared as non-function [-Wbuiltin-declaration-mismatch]
+   50 | Log log;
+      |     ^~~
+./Source/serial/cmd.c: In function 'gettime':
+./Source/serial/cmd.c:40:1: warning: control reaches end of non-void function [-Wreturn-type]
+   40 | }
+      | ^
+
+[2026-09-30 17:27:07]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:27:08]	[done]
+	build successfully !
+
+[2026-09-30 17:32:17]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 17:32:22]	[done]
+	build successfully !
+
+[2026-09-30 17:35:13]	[info] incremental build: 7 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 17:35:17]	[done]
+	build successfully !
+
+[2026-09-30 17:36:45]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:36:47]	[done]
+	build successfully !
+
+[2026-09-30 17:41:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:41:13]	[done]
+	build successfully !
+
+[2026-09-30 17:48:23]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:48:24]	[done]
+	build successfully !
+
+[2026-09-30 17:49:32]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:49:32]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Source/serial/cmd.o -MMD ./Source/serial/cmd.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Source/serial/cmd.c: In function 'Debug':
+./Source/serial/cmd.c:29:9: error: implicit declaration of function 'LOG_DEBUG' [-Wimplicit-function-declaration]
+   29 |         LOG_DEBUG("Error: 404 Not Found\r\n");
+      |         ^~~~~~~~~
+./Source/serial/cmd.c: In function 'time':
+./Source/serial/cmd.c:56:1: warning: control reaches end of non-void function [-Wreturn-type]
+   56 | }
+      | ^
+
+[2026-09-30 17:49:47]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 17:49:49]	[done]
+	build successfully !
+

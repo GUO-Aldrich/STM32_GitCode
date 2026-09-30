@@ -1,0 +1,12 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "EIDE.DisplayLanguage": "zh-cn",
+        "cortex-debug.armToolchainPath": ""
+    },
+    "extensions": {}
+}

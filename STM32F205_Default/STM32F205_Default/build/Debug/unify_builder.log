@@ -1,0 +1,1009 @@
+[2026-09-30 10:38:09]	[info] incremental build: 18 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': object (.o) file not exist
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': object (.o) file not exist
+
+[2026-09-30 10:38:11]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/Liyh1/DeskBox/???/STM32_GitCode/STM32F205_Default/STM32F205_Default/STM32F205xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 10:39:55]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 10:39:56]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/Liyh1/DeskBox/???/STM32_GitCode/STM32F205_Default/STM32F205_Default/STM32F205xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 10:41:27]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\DeskBox\文档\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-09-30 10:41:28]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: cannot open linker script file c:/Users/Liyh1/DeskBox/???/STM32_GitCode/STM32F205_Default/STM32F205_Default/STM32F205xx_FLASH.ld: Invalid argument
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 10:44:34]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': source file has been changed.
+
+[2026-09-30 10:44:36]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f205xx.o -MMD ./startup_stm32f205xx.s
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f205xx.s: Assembler messages:
+./startup_stm32f205xx.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f205xx.s:2: Error: bad size 0 in type specifier
+./startup_stm32f205xx.s:2: Error: bad instruction `startup_stm32f205xx.s'
+
+[2026-09-30 10:49:41]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-09-30 10:49:43]	[done]
+	build successfully !
+
+[2026-09-30 10:50:16]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 10:50:18]	[done]
+	build successfully !
+
+[2026-09-30 10:51:32]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 10:51:35]	[done]
+	build successfully !
+
+[2026-09-30 10:54:34]	[done]
+	build successfully !
+
+[2026-09-30 11:01:39]	[info] incremental build: 19 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': source file has been changed.
+
+[2026-09-30 11:01:41]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f205xx.o -MMD ./startup_stm32f205xx.s
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f205xx.s: Assembler messages:
+./startup_stm32f205xx.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f205xx.s:2: Error: bad size 0 in type specifier
+./startup_stm32f205xx.s:2: Error: bad instruction `startup_stm32f205xx.s'
+
+[2026-09-30 11:05:13]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-09-30 11:05:14]	[done]
+	build successfully !
+
+[2026-09-30 11:11:58]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 11:11:58]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:99:43: error: expected ';' before ')' token
+   99 |     HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_11));
+      |                                           ^
+      |                                           ;
+./Core/Src/main.c:99:43: error: expected statement before ')' token
+
+[2026-09-30 11:12:13]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 11:12:14]	[done]
+	build successfully !
+
+[2026-09-30 11:16:31]	[info] incremental build: 17 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Inc\stm32f2xx_hal_conf.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c': object (.o) file not exist
+
+[2026-09-30 11:16:35]	[done]
+	build successfully !
+
+[2026-09-30 11:26:53]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\gpio.c': object (.o) file not exist
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': object (.o) file not exist
+
+[2026-09-30 11:26:55]	[done]
+	build successfully !
+
+[2026-09-30 11:27:45]	[info] incremental build: 22 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': compiler options has been changed.
+
+[2026-09-30 11:27:50]	[done]
+	build successfully !
+
+[2026-09-30 11:28:18]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': object (.o) file not exist
+
+[2026-09-30 11:28:21]	[done]
+	build successfully !
+
+[2026-09-30 11:28:47]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 11:28:49]	[done]
+	build successfully !
+
+[2026-09-30 11:33:07]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.h' has been changed.
+
+[2026-09-30 11:33:08]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+In file included from ./Core/Src/main.c:27:
+Source/serial/serial.h:4:10: fatal error: logo_color.h: No such file or directory
+    4 | #include "logo_color.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+
+[2026-09-30 11:33:38]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.h' has been changed.
+
+[2026-09-30 11:33:40]	[done]
+	build successfully !
+
+[2026-09-30 11:35:19]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 11:35:21]	[done]
+	build successfully !
+
+[2026-09-30 13:35:18]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:35:20]	[done]
+	build successfully !
+
+[2026-09-30 13:35:51]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:35:53]	[done]
+	build successfully !
+
+[2026-09-30 13:38:57]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:38:59]	[done]
+	build successfully !
+
+[2026-09-30 13:40:16]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:40:18]	[done]
+	build successfully !
+
+[2026-09-30 13:42:42]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:42:44]	[done]
+	build successfully !
+
+[2026-09-30 13:43:13]	[done]
+	build successfully !
+
+[2026-09-30 13:44:36]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:44:36]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+In file included from Source/serial/serial.h:4,
+                 from ./Core/Src/main.c:27:
+./Core/Src/main.c: In function 'main':
+Source/serial/log_color.h:5:6: error: implicit declaration of function 'strrchr' [-Wimplicit-function-declaration]
+    5 |     (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : \
+      |      ^~~~~~~
+Source/serial/log_color.h:18:58: note: in expansion of macro '__FILENAME__'
+   18 |     printf(COLOR_GREEN  "[INFO] %s:%d " fmt COLOR_RESET, __FILENAME__, __LINE__, ##__VA_ARGS__)
+      |                                                          ^~~~~~~~~~~~
+./Core/Src/main.c:105:5: note: in expansion of macro 'LOG_INFO'
+  105 |     LOG_INFO("HELLO WORLD!\r\n");
+      |     ^~~~~~~~
+./Core/Src/main.c:28:1: note: include '<string.h>' or provide a declaration of 'strrchr'
+   27 | #include "serial.h"
+  +++ |+#include <string.h>
+   28 | /* USER CODE END Includes */
+Source/serial/log_color.h:5:6: warning: incompatible implicit declaration of built-in function 'strrchr' [-Wbuiltin-declaration-mismatch]
+    5 |     (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : \
+      |      ^~~~~~~
+Source/serial/log_color.h:18:58: note: in expansion of macro '__FILENAME__'
+   18 |     printf(COLOR_GREEN  "[INFO] %s:%d " fmt COLOR_RESET, __FILENAME__, __LINE__, ##__VA_ARGS__)
+      |                                                          ^~~~~~~~~~~~
+./Core/Src/main.c:105:5: note: in expansion of macro 'LOG_INFO'
+  105 |     LOG_INFO("HELLO WORLD!\r\n");
+      |     ^~~~~~~~
+Source/serial/log_color.h:5:6: note: include '<string.h>' or provide a declaration of 'strrchr'
+    5 |     (strrchr(__FILE__, '/') ? strrchr(__FILE__, '/') + 1 : \
+      |      ^~~~~~~
+Source/serial/log_color.h:18:58: note: in expansion of macro '__FILENAME__'
+   18 |     printf(COLOR_GREEN  "[INFO] %s:%d " fmt COLOR_RESET, __FILENAME__, __LINE__, ##__VA_ARGS__)
+      |                                                          ^~~~~~~~~~~~
+./Core/Src/main.c:105:5: note: in expansion of macro 'LOG_INFO'
+  105 |     LOG_INFO("HELLO WORLD!\r\n");
+      |     ^~~~~~~~
+
+[2026-09-30 13:44:48]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\log_color.h' has been changed.
+
+[2026-09-30 13:44:50]	[done]
+	build successfully !
+
+[2026-09-30 13:46:21]	[done]
+	build successfully !
+
+[2026-09-30 13:46:43]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': source file has been changed.
+
+[2026-09-30 13:46:44]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f205xx.o -MMD ./startup_stm32f205xx.s
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f205xx.s: Assembler messages:
+./startup_stm32f205xx.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f205xx.s:2: Error: bad size 0 in type specifier
+./startup_stm32f205xx.s:2: Error: bad instruction `startup_stm32f205xx.s'
+
+[2026-09-30 13:49:52]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-09-30 13:49:53]	[done]
+	build successfully !
+
+[2026-09-30 13:52:09]	[done]
+	build successfully !
+
+[2026-09-30 14:04:48]	[done]
+	build successfully !
+
+[2026-09-30 14:08:34]	[done]
+	build successfully !
+
+[2026-09-30 14:21:47]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 14:21:49]	[done]
+	build successfully !
+
+[2026-09-30 14:30:08]	[done]
+	build successfully !
+
+[2026-09-30 14:51:25]	[done]
+	build successfully !
+
+[2026-09-30 14:52:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': source file has been changed.
+
+[2026-09-30 14:52:11]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f205xx.o -MMD ./startup_stm32f205xx.s
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f205xx.s: Assembler messages:
+./startup_stm32f205xx.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f205xx.s:2: Error: bad size 0 in type specifier
+./startup_stm32f205xx.s:2: Error: bad instruction `startup_stm32f205xx.s'
+
+[2026-09-30 14:52:45]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-09-30 14:52:46]	[done]
+	build successfully !
+
+[2026-09-30 14:54:27]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 14:54:28]	[done]
+	build successfully !
+
+[2026-09-30 15:06:16]	[info] incremental build: 27 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': object (.o) file not exist
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cmd_list.c': object (.o) file not exist
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_companion.c': object (.o) file not exist
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': object (.o) file not exist
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\startup_stm32f205xx.s': compiler options has been changed.
+
+[2026-09-30 15:06:20]	[done]
+	build successfully !
+
+[2026-09-30 15:09:14]	[info] incremental build: 5 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cmd_list.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_companion.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 15:09:17]	[done]
+	build successfully !
+
+[2026-09-30 15:09:51]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 15:09:52]	[done]
+	build successfully !
+
+[2026-09-30 15:13:01]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 15:13:03]	[done]
+	build successfully !
+
+[2026-09-30 15:23:19]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 15:23:19]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:65:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   65 | {
+      | ^
+./Core/Src/main.c:78:1: error: expected '=', ',', ';', 'asm' or '__attribute__' before '{' token
+   78 | {
+      | ^
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:119:16: error: 'shellRead' undeclared (first use in this function); did you mean 'shellRun'?
+  119 |   shell.read = shellRead;
+      |                ^~~~~~~~~
+      |                shellRun
+./Core/Src/main.c:119:16: note: each undeclared identifier is reported only once for each function it appears in
+./Core/Src/main.c:120:17: error: 'shellWrite' undeclared (first use in this function); did you mean 'shellPrint'?
+  120 |   shell.write = shellWrite;
+      |                 ^~~~~~~~~~
+      |                 shellPrint
+
+[2026-09-30 15:36:03]	[info] incremental build: 3 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\ring.c': object (.o) file not exist
+
+[2026-09-30 15:36:03]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:125:14: error: assignment to 'short int (*)(char *, short unsigned int)' from incompatible pointer type 'uint16_t (*)(char *, uint16_t)' {aka 'short unsigned int (*)(char *, short unsigned int)'} [-Wincompatible-pointer-types]
+  125 |   shell.read = shellRead;
+      |              ^
+./Core/Src/main.c:66:10: note: 'shellRead' declared here
+   66 | uint16_t shellRead(char *data, uint16_t len)
+      |          ^~~~~~~~~
+./Core/Src/main.c:126:15: error: assignment to 'short int (*)(char *, short unsigned int)' from incompatible pointer type 'uint16_t (*)(char *, uint16_t)' {aka 'short unsigned int (*)(char *, short unsigned int)'} [-Wincompatible-pointer-types]
+  126 |   shell.write = shellWrite;
+      |               ^
+./Core/Src/main.c:82:10: note: 'shellWrite' declared here
+   82 | uint16_t shellWrite(char *data, uint16_t len)
+      |          ^~~~~~~~~~
+
+[2026-09-30 15:36:42]	[info] incremental build: 3 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\ring.c': object (.o) file not exist
+
+[2026-09-30 15:36:43]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:125:14: error: assignment to 'short int (*)(char *, short unsigned int)' from incompatible pointer type 'uint16_t (*)(char *, uint16_t)' {aka 'short unsigned int (*)(char *, short unsigned int)'} [-Wincompatible-pointer-types]
+  125 |   shell.read = Read;
+      |              ^
+./Core/Src/main.c:66:10: note: 'Read' declared here
+   66 | uint16_t Read(char *data, uint16_t len)
+      |          ^~~~
+./Core/Src/main.c:126:15: error: assignment to 'short int (*)(char *, short unsigned int)' from incompatible pointer type 'uint16_t (*)(char *, uint16_t)' {aka 'short unsigned int (*)(char *, short unsigned int)'} [-Wincompatible-pointer-types]
+  126 |   shell.write = Write;
+      |               ^
+./Core/Src/main.c:82:10: note: 'Write' declared here
+   82 | uint16_t Write(char *data, uint16_t len)
+      |          ^~~~~
+
+[2026-09-30 15:37:23]	[info] incremental build: 3 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\ring.c': object (.o) file not exist
+
+[2026-09-30 15:37:25]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:220:(.text.shellInit+0x84): undefined reference to `_shell_command_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:220:(.text.shellInit+0x88): undefined reference to `_shell_command_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        3272 B       128 KB      2.50%
+           FLASH:       12872 B       512 KB      2.46%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 15:38:50]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 15:38:51]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:220:(.text.shellInit+0x84): undefined reference to `_shell_command_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:220:(.text.shellInit+0x88): undefined reference to `_shell_command_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2848 B       128 KB      2.17%
+           FLASH:        8732 B       512 KB      1.67%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 15:42:12]	[info] incremental build: 27 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_hal_msp.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\stm32f2xx_it.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\syscalls.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\sysmem.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\usart.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_cortex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_dma_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_exti.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_flash_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_gpio.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_pwr_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_rcc_ex.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Drivers\STM32F2xx_HAL_Driver\Src\stm32f2xx_hal_uart.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\serial\serial.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\ring.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cmd_list.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_companion.c': compiler options has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': compiler options has been changed.
+
+[2026-09-30 15:42:13]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\system_stm32f2xx.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs _shell_command_start = .; KEEP (*(shellCommand)) _shell_command_end = .; -o ./build/Debug/.obj/Core/Src/system_stm32f2xx.o -MMD ./Core/Src/system_stm32f2xx.c
+   at unify_builder.Program.compileByMulThread(Int32 thrNum, CmdInfo[] cmds_, List`1 errLogs)
+   at unify_builder.Program.Main(String[] args_)
+---
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+arm-none-eabi-gcc.exe: fatal error: cannot specify '-o' with '-c', '-S' or '-E' with multiple files
+compilation terminated.
+
+[2026-09-30 15:47:34]	[done]
+	build successfully !
+
+[2026-09-30 15:55:42]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': object (.o) file not exist
+
+[2026-09-30 15:55:43]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Source/shell/cmd.o -MMD ./Source/shell/cmd.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Source/shell/cmd.c:11:34: error: macro 'SHELL_EXPORT_CMD' requires 4 arguments, but only 3 given
+   11 | SHELL_EXPORT_CMD(func, func, test);
+      |                                  ^
+In file included from ./Source/shell/cmd.c:2:
+./Source/shell/shell.h:132:13: note: macro 'SHELL_EXPORT_CMD' defined here
+  132 |     #define SHELL_EXPORT_CMD(_attr, _name, _func, _desc) \
+      |             ^~~~~~~~~~~~~~~~
+./Source/shell/cmd.c:11:1: warning: data definition has no type or storage class
+   11 | SHELL_EXPORT_CMD(func, func, test);
+      | ^~~~~~~~~~~~~~~~
+./Source/shell/cmd.c:11:1: error: type defaults to 'int' in declaration of 'SHELL_EXPORT_CMD' [-Wimplicit-int]
+
+[2026-09-30 15:56:57]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': object (.o) file not exist
+
+[2026-09-30 15:56:58]	[done]
+	build successfully !
+
+[2026-09-30 15:57:14]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+
+[2026-09-30 15:57:16]	[done]
+	build successfully !
+
+[2026-09-30 15:59:06]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 15:59:08]	[done]
+	build successfully !
+
+[2026-09-30 16:01:16]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 16:01:16]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:34:1: error: unknown type name 'Shell'
+   34 | Shell shell;
+      | ^~~~~
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:125:8: error: request for member 'read' in something not a structure or union
+  125 |   shell.read = Read;
+      |        ^
+./Core/Src/main.c:126:8: error: request for member 'write' in something not a structure or union
+  126 |   shell.write = Write;
+      |        ^
+./Core/Src/main.c:127:13: error: passing argument 1 of 'shellInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  127 |   shellInit(&shell, shellBuffer, 512);
+      |             ^~~~~~
+      |             |
+      |             int *
+In file included from ./Core/Src/main.c:28:
+Source/shell/shell.h:340:31: note: expected 'SHELL_TypeDef *' but argument is of type 'int *'
+  340 | void shellInit(SHELL_TypeDef *shell);
+      |                ~~~~~~~~~~~~~~~^~~~~
+./Core/Src/main.c:127:3: error: too many arguments to function 'shellInit'; expected 1, have 3
+  127 |   shellInit(&shell, shellBuffer, 512);
+      |   ^~~~~~~~~         ~~~~~~~~~~~
+Source/shell/shell.h:340:6: note: declared here
+  340 | void shellInit(SHELL_TypeDef *shell);
+      |      ^~~~~~~~~
+
+[2026-09-30 16:02:01]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 16:02:01]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -xc -std=c11 -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -D"USE_HAL_DRIVER" -D"STM32F205xx" -mcpu=cortex-m3 -mthumb -Og -Wall -g -ffunction-sections -fdata-sections -funsigned-char --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/Core/Src/main.o -MMD ./Core/Src/main.c
+   at unify_builder.Program.Main(String[] args_)
+---
+./Core/Src/main.c:34:1: error: unknown type name 'Shell'
+   34 | Shell shell;
+      | ^~~~~
+./Core/Src/main.c: In function 'main':
+./Core/Src/main.c:108:14: error: request for member 'read' in something not a structure or union
+  108 |         shell.read = myShellRead;
+      |              ^
+./Core/Src/main.c:109:14: error: request for member 'write' in something not a structure or union
+  109 |         shell.write = myShellWrite;
+      |              ^
+./Core/Src/main.c:110:19: error: passing argument 1 of 'shellInit' from incompatible pointer type [-Wincompatible-pointer-types]
+  110 |         shellInit(&shell);
+      |                   ^~~~~~
+      |                   |
+      |                   int *
+In file included from ./Core/Src/main.c:28:
+Source/shell/shell.h:340:31: note: expected 'SHELL_TypeDef *' but argument is of type 'int *'
+  340 | void shellInit(SHELL_TypeDef *shell);
+      |                ~~~~~~~~~~~~~~~^~~~~
+
+[2026-09-30 16:02:40]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 16:02:43]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x80): undefined reference to `_shell_variable_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x84): undefined reference to `_shell_variable_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2600 B       128 KB      1.98%
+           FLASH:       12412 B       512 KB      2.37%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 16:03:31]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x78): undefined reference to `_shell_command_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x7c): undefined reference to `_shell_command_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2600 B       128 KB      1.98%
+           FLASH:       12412 B       512 KB      2.37%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 16:04:32]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x78): undefined reference to `_shell_command_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x7c): undefined reference to `_shell_command_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2600 B       128 KB      1.98%
+           FLASH:       12412 B       512 KB      2.37%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 16:05:05]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x80): undefined reference to `_shell_variable_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x84): undefined reference to `_shell_variable_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2600 B       128 KB      1.98%
+           FLASH:       12412 B       512 KB      2.37%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 16:06:44]	[done]
+	build successfully !
+
+[2026-09-30 16:09:12]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 16:09:15]	[done]
+	build successfully !
+
+[2026-09-30 16:12:01]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+
+[2026-09-30 16:12:02]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Source/shell/shell.o: in function `shellInit':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x80): undefined reference to `_shell_variable_start'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default/./Source/shell/shell.c:201:(.text.shellInit+0x84): undefined reference to `_shell_variable_end'
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2600 B       128 KB      1.98%
+           FLASH:       12412 B       512 KB      2.37%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 16:12:41]	[info] incremental build: 4 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_ext.c': dependence 'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\shell_cfg.h' has been changed.
+
+[2026-09-30 16:12:44]	[done]
+	build successfully !
+
+[2026-09-30 16:17:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 16:17:12]	[done]
+	build successfully !
+
+[2026-09-30 16:21:57]	[done]
+	build successfully !
+
+[2026-09-30 16:23:09]	[done]
+	build successfully !
+
+[2026-09-30 16:23:53]	[done]
+	build successfully !
+
+[2026-09-30 16:24:25]	[done]
+	build successfully !
+
+[2026-09-30 16:26:08]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+
+[2026-09-30 16:26:10]	[done]
+	build successfully !
+
+[2026-09-30 16:29:11]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+
+[2026-09-30 16:29:13]	[done]
+	build successfully !
+
+[2026-09-30 16:31:15]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Source\shell\cmd.c': source file has been changed.
+
+[2026-09-30 16:31:17]	[done]
+	build successfully !
+
+[2026-09-30 16:31:44]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 16:31:46]	[done]
+	build successfully !
+
+[2026-09-30 16:33:15]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 16:33:17]	[done]
+	build successfully !
+
+[2026-09-30 16:33:30]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 16:33:31]	[done]
+	build successfully !
+
+[2026-09-30 16:33:50]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 16:33:52]	[done]
+	build successfully !
+
