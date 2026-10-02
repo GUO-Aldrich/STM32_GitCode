@@ -26,18 +26,15 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "serial.h"
-#include "shell.h"
-#include "stdio.h"
+#include "lcd_shell.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 #include "bsp_W25Q128.h"
 #include "LCD_ILI9341.h"
-#include "bsp_XPT2046.h"
 #include "LCD_OLED_Style.h"
-#include "rtc.h"
-#include "stdbool.h"
+#include "led_cmd.h"
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -52,11 +49,6 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
-extern volatile uint8_t led_alternate_enable;
-extern volatile uint8_t led_alternate_step;
-
-static uint32_t led_last_tick = 0;
 
 /* USER CODE END PV */
 
@@ -104,16 +96,25 @@ int main(void)
   MX_RTC_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-  shell_init();
-
-  W25Q128_Init();                                                               // W25Q128 初始化
+  W25Q128_Init();
 
   LCD_Init();
   LCD_SetDir(1);
 
   LCD_Fill(0, 0, xLCD.width - 1, xLCD.height - 1, BLACK);
 
-  PixelClock_SetOn(1);
+  if (LcdShell_GetAutoStart())
+  {
+    LcdShell_SetEnabled(1);
+    shell_init();
+  }
+  else
+  {
+    shell_init();
+    PixelClock_SetOn(1);
+  }
+
+  Led_Cmd_Init();
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -132,29 +133,8 @@ int main(void)
     {
       PixelClock_Render(t.Hours, t.Minutes, t.Seconds, d.Year, d.Month, d.Date);
     }
-    else if (Clock_IsOn())
-    {
-      Clock_Render(t.Hours, t.Minutes, t.Seconds, d.Year, d.Month, d.Date);
-    }
 
-    if (led_alternate_enable) {
-        uint32_t now = HAL_GetTick();
-        if ((now - led_last_tick) >= 500) {
-            led_last_tick = now;
-            if (led_alternate_step == 0) {
-                HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_SET);
-                HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);
-                led_alternate_step = 1;
-            } else {
-                HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
-                HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_SET);
-                led_alternate_step = 0;
-            }
-        }
-    } else {
-        HAL_GPIO_WritePin(GPIOB, GPIO_PIN_2, GPIO_PIN_RESET);
-        HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);
-    }
+    Led_Alternate_Update();
   }
   /* USER CODE END 3 */
 }

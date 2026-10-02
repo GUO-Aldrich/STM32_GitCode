@@ -1,23 +1,26 @@
 #include "stm32f4xx_hal.h"
 #include "usart.h"
 #include "serial.h"
-
 #include "shell.h"
+#include "lcd_shell.h"
 #include "stdint.h"
 
 Shell shell;
 char shellBuffer[512];
 uint8_t buffer[32];
 
-signed short shell_write(char *bytes, unsigned short len)
+static signed short shell_write_tee(char *bytes, unsigned short len)
 {
     HAL_UART_Transmit(&huart1, (uint8_t *)bytes, len, 50);
+    if (LcdShell_IsEnabled()) {
+        LcdShell_PutString(bytes, len);
+    }
     return len;
 }
 
 void shell_init(void)
 {
-    shell.write = shell_write;
+    shell.write = shell_write_tee;
     shellInit(&shell, shellBuffer, sizeof(shellBuffer));
     HAL_UARTEx_ReceiveToIdle_IT(&huart1, buffer, sizeof(buffer));
 }
@@ -41,9 +44,9 @@ void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
 
 PUTCHAR_PROTOTYPE
 {
-    /* Place your implementation of fputc here */
-    /* e.g. write a character to the EVAL_COM1 and Loop until the end of transmission */
     HAL_UART_Transmit(&huart1, (uint8_t *)&ch, 1, 0xFFFF);
-
+    if (LcdShell_IsEnabled()) {
+        LcdShell_PutChar(ch);
+    }
     return ch;
 }

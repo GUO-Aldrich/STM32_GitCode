@@ -1,4 +1,4 @@
-#ifndef __LCD_OLED_STYLE_H
+﻿#ifndef __LCD_OLED_STYLE_H
 #define __LCD_OLED_STYLE_H
 
 #include "LCD_ILI9341.h"
@@ -53,7 +53,7 @@ void OLED_SlideInChar(OLED_Screen_t *screen, uint16_t col, char ch);
 /**
  * PUSH animation: new chars ENTER from BELOW, old chars EXIT above.
  * Every frame the two characters (old + new) are drawn at Y positions
- * whose union EXACTLY covers the column slot — so there is NEVER a
+ * whose union EXACTLY covers the column slot 鈥?so there is NEVER a
  * "hole" where bg_color shows through.  This eliminates the white-block
  * ghosting that plagues naive slide-in implementations.
  *
@@ -61,7 +61,7 @@ void OLED_SlideInChar(OLED_Screen_t *screen, uint16_t col, char ch);
  *   frame=8:   [ OLD top half     ]    [ NEW bottom half       ]
  *   frame=16:  [ OLD fully above  ]    [ NEW FULLY visible     ]
  *
- * total visible height always = char_h → no gaps, no white blocks.
+ * total visible height always = char_h 鈫?no gaps, no white blocks.
  */
 void OLED_PushCols(OLED_Screen_t *screen,
                    const uint16_t *cols,
@@ -77,52 +77,7 @@ void OLED_SlideInCols(OLED_Screen_t *screen,
                       uint16_t        count);
 
 /*============================================================================
- * Analog clock dial (physical pixel drawing, no scale)
- *============================================================================*/
-
-/**
- * @brief Draw the static face of an analog clock.  Call once at startup.
- * @param cx,cy   Center of the dial (LCD physical pixels)
- * @param r       Outer radius of the dial
- * @param fg      Foreground color (circle + ticks + numbers)
- * @param bg      Background color (fills interior before drawing)
- */
-void Clock_DrawFace(uint16_t cx, uint16_t cy, uint16_t r,
-                    uint16_t fg, uint16_t bg);
-
-/**
- * @brief Redraw only the three hands (hour / minute / second).
- *        Call every second.  Erases the previous hand positions with bg
- *        before drawing the new ones — the dial (circle, ticks, numbers)
- *        is NEVER touched, so no flicker and no need to redraw it.
- * @param cx,cy   Same center used in Clock_DrawFace
- * @param r       Same radius used in Clock_DrawFace
- * @param h,m,s   Current hour (0-23), minute (0-59), second (0-59)
- * @param fg      Hand color
- * @param bg      Background color (used to erase old hands)
- */
-void Clock_DrawHands(uint16_t cx, uint16_t cy, uint16_t r,
-                     uint8_t h, uint8_t m, uint8_t s,
-                     uint16_t fg, uint16_t bg);
-
-/*============================================================================
- * High-level clock (encapsulated, use from anywhere in the project)
- *============================================================================*/
-
-/* Turn the clock display on (1) or off (0). */
-void Clock_SetOn(uint8_t on);
-
-/* Query current state. */
-uint8_t Clock_IsOn(void);
-
-/* Call this every main loop iteration when Clock_IsOn() is true.
- * h=0..23, m/s=0..59, year=0..99, month=1..12, day=1..31 (HAL_RTC BIN format).
- * Handles everything: push-animating digits, redrawing hands, updating date. */
-void Clock_Render(uint8_t h, uint8_t m, uint8_t s,
-                  uint8_t year, uint8_t month, uint8_t day);
-
-/*============================================================================
- * Big pixel-style digital clock (xt command — no analog dial)
+ * Big pixel-style digital clock (xt command 鈥?no analog dial)
  *============================================================================*/
 
 /* Turn the big pixel clock on (1) or off (0). */

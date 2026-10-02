@@ -35,6 +35,10 @@ targets:
         - Source/serial
         - Source/shell
         - Source/lcd
+        - Source/rtc
+        - Source/system
+        - Source/adc
+        - Source/gpio
       libList: []
     excludeList: []
     settings:
