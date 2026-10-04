@@ -2,10 +2,13 @@
 #define __SERIAL_H
 
 #include "log_color.h"
+#include <stdint.h>
 
-void shell_init();
-signed short shell_write(char* bytes, unsigned short len);
-void shell_parse_input(uint16_t size);
+extern volatile uint8_t g_ctrl_c_pressed;
+
+void shell_init(void);
+void shell_task(void);
+uint8_t Shell_ConsumeCtrlC(void);
 
 #ifndef __GNU__
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)

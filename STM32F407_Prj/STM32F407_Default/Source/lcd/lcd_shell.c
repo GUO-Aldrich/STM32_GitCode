@@ -185,8 +185,72 @@ void LcdShell_PutChar(char ch)
 
 void LcdShell_PutString(const char *str, uint16_t len)
 {
-    for (uint16_t i = 0; i < len; i++) {
-        LcdShell_PutChar(str[i]);
+    if (!s_enabled) return;
+    ensure_ready();
+
+    uint8_t row_need_redraw = 0;
+
+    for (uint16_t i = 0; i < len; i++)
+    {
+        char ch = str[i];
+
+        if (s_ansi_state != 0)
+        {
+            if (s_ansi_state == 1) {
+                if (ch == '[') { s_ansi_state = 2; s_ansi_len = 0; }
+                else { s_ansi_state = 0; }
+                continue;
+            }
+            if (s_ansi_state == 2) {
+                if ((ch >= '0' && ch <= '9') || ch == ';') {
+                    if (s_ansi_len < sizeof(s_ansi_buf) - 1)
+                        s_ansi_buf[s_ansi_len++] = ch;
+                } else {
+                    s_ansi_buf[s_ansi_len++] = ch;
+                    handle_ansi();
+                    s_ansi_state = 0;
+                    row_need_redraw = 1;
+                }
+                continue;
+            }
+        }
+        if (ch == 0x1B) {
+            s_ansi_state = 1;
+            continue;
+        }
+        if (ch == '\r') {
+            s_col = 0;
+            continue;
+        }
+        if (ch == '\n') {
+            if (s_row + 1 >= s_rows) term_scroll_up();
+            else s_row++;
+            row_need_redraw = 1;
+            continue;
+        }
+        if (ch == '\b') {
+            if (s_col > 0) {
+                s_col--;
+                s_buffer[(uint32_t)s_row * s_cols + s_col] = ' ';
+                row_need_redraw = 1;
+            }
+            continue;
+        }
+        if (ch < 0x20 || ch > 0x7E) continue;
+
+        if (s_col >= s_cols) {
+            if (s_row + 1 >= s_rows) term_scroll_up();
+            else s_row++;
+            s_col = 0;
+        }
+
+        s_buffer[(uint32_t)s_row * s_cols + s_col] = ch;
+        s_col++;
+        row_need_redraw = 1;
+    }
+
+    if (row_need_redraw) {
+        if (s_row < s_rows) draw_row(s_row);
     }
 }
 

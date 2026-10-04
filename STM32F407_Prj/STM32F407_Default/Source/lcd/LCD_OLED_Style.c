@@ -444,47 +444,57 @@ void PixelClock_Render(uint8_t h, uint8_t m, uint8_t s,
 {
     if (!s_pix_on) return;
 
-    if (s != s_pix_last_sec)
+    char buf[9];
+    buf[0] = '0' + h / 10;
+    buf[1] = '0' + h % 10;
+    buf[2] = ':';
+    buf[3] = '0' + m / 10;
+    buf[4] = '0' + m % 10;
+    buf[5] = ':';
+    buf[6] = '0' + s / 10;
+    buf[7] = '0' + s % 10;
+    buf[8] = '\0';
+
+    if (memcmp(buf, s_pix_last_tbuf, 9) != 0)
     {
-        char buf[9];
-        uint16_t cnt = 0;
-        uint16_t i;
-
-        buf[0] = '0' + h / 10;
-        buf[1] = '0' + h % 10;
-        buf[2] = ':';
-        buf[3] = '0' + m / 10;
-        buf[4] = '0' + m % 10;
-        buf[5] = ':';
-        buf[6] = '0' + s / 10;
-        buf[7] = '0' + s % 10;
-        buf[8] = '\0';
-
-        if (s_pix_last_sec == 0xFF)
+        if (s_pix_push_active)
         {
-            OLED_ShowString(&s_pix_time, 0, 0, buf);
         }
         else
         {
-            for (i = 0; i < 8; i++)
+            uint16_t cnt = 0;
+            uint16_t i;
+
+            if (s_pix_last_sec == 0xFF)
             {
-                if (buf[i] != s_pix_last_tbuf[i] && cnt < 8)
+                OLED_ShowString(&s_pix_time, 0, 0, buf);
+            }
+            else
+            {
+                for (i = 0; i < 8; i++)
                 {
-                    s_pix_push_cols[cnt] = i;
-                    s_pix_push_oldc[cnt] = s_pix_last_tbuf[i];
-                    s_pix_push_newc[cnt] = buf[i];
-                    cnt++;
+                    if (buf[i] != s_pix_last_tbuf[i] && cnt < 8)
+                    {
+                        s_pix_push_cols[cnt] = i;
+                        s_pix_push_oldc[cnt] = s_pix_last_tbuf[i];
+                        s_pix_push_newc[cnt] = buf[i];
+                        cnt++;
+                    }
+                }
+                if (cnt > 0)
+                {
+                    s_pix_push_cnt    = cnt;
+                    s_pix_push_frame  = 0;
+                    s_pix_push_total  = 16;
+                    s_pix_push_active = 1;
+                }
+                else
+                {
+                    OLED_ShowString(&s_pix_time, 0, 0, buf);
                 }
             }
-            if (cnt > 0)
-            {
-                s_pix_push_cnt   = cnt;
-                s_pix_push_frame = 0;
-                s_pix_push_total = 16;
-                s_pix_push_active = 1;
-            }
+            memcpy(s_pix_last_tbuf, buf, 9);
         }
-        memcpy(s_pix_last_tbuf, buf, 9);
         s_pix_last_sec = s;
     }
 

@@ -35,6 +35,7 @@
 #include "LCD_ILI9341.h"
 #include "LCD_OLED_Style.h"
 #include "led_cmd.h"
+#include "adc_cmd.h"
 /* USER CODE END PTD */
 
 /* Private define ------------------------------------------------------------*/
@@ -124,10 +125,16 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    RTC_TimeTypeDef t;
-    RTC_DateTypeDef d;
-    HAL_RTC_GetTime(&hrtc, &t, RTC_FORMAT_BIN);
-    HAL_RTC_GetDate(&hrtc, &d, RTC_FORMAT_BIN);
+    static RTC_TimeTypeDef t = {0};
+    static RTC_DateTypeDef d = {0};
+    static uint32_t last_rtc_tick = 0;
+
+    if ((HAL_GetTick() - last_rtc_tick) >= 500)
+    {
+        last_rtc_tick = HAL_GetTick();
+        HAL_RTC_GetTime(&hrtc, &t, RTC_FORMAT_BIN);
+        HAL_RTC_GetDate(&hrtc, &d, RTC_FORMAT_BIN);
+    }
 
     if (PixelClock_IsOn())
     {
@@ -135,6 +142,9 @@ int main(void)
     }
 
     Led_Alternate_Update();
+    Temp_BackgroundUpdate();
+
+    shell_task();
   }
   /* USER CODE END 3 */
 }

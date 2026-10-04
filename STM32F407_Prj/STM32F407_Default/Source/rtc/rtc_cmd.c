@@ -2,7 +2,21 @@
 #include "shell.h"
 #include "stdio.h"
 #include "stdlib.h"
+#include "string.h"
 #include "rtc.h"
+
+void RTC_FormatTimestamp(char *buf, size_t buf_size)
+{
+    if (!buf || buf_size == 0) return;
+    if (buf_size < 14) { buf[0] = '\0'; return; }
+
+    RTC_TimeTypeDef time;
+    HAL_RTC_GetTime(&hrtc, &time, RTC_FORMAT_BIN);
+
+    uint32_t ms = (255 - time.SubSeconds) * 1000UL / 256UL;
+    snprintf(buf, buf_size, "[%02u:%02u:%02u.%03lu]",
+             time.Hours, time.Minutes, time.Seconds, ms);
+}
 
 static int zeller(int y, int m, int d)
 {
@@ -44,7 +58,7 @@ static const char *weekday_name(uint8_t w)
 
 static uint16_t rtc_year_to_full(uint8_t year)
 {
-    return (year < 50) ? (2000 + year) : (1900 + year);
+    return 2000 + year;
 }
 
 void rtc_read(void)
@@ -88,7 +102,7 @@ void rtc_set(int argc, char *argv[])
     }
 
     RTC_DateTypeDef d = {0};
-    d.Year   = (year >= 2050) ? (year - 1900) : (year - 2000);
+    d.Year   = year % 100;
     d.Month  = month;
     d.Date   = day;
     d.WeekDay = zeller_to_rtc_weekday(zeller(year, month, day));
