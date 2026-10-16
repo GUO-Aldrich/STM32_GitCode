@@ -1,0 +1,6 @@
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/CMakeFiles/STM32F407_Default.dir
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/Liyh1/DeskBox/文档/STM32_GitCode/STM32F407_Default/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir

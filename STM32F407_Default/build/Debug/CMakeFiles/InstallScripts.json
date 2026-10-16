@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Liyh1/DeskBox/\u6587\u6863/STM32_GitCode/STM32F407_Default/build/Debug/cmake_install.cmake",
+		"C:/Users/Liyh1/DeskBox/\u6587\u6863/STM32_GitCode/STM32F407_Default/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
