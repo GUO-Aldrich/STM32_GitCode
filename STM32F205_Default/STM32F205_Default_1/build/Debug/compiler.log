@@ -14,15 +14,15 @@ The amount of Asm files: 0
 >>> cc
 
 ./Source/serial/cmd.c: In function 'time':
-./Source/serial/cmd.c:57:1: warning: control reaches end of non-void function [-Wreturn-type]
-   57 | }
+./Source/serial/cmd.c:61:1: warning: control reaches end of non-void function [-Wreturn-type]
+   61 | }
       | ^
 
 >>> ld
 
 Memory region         Used Size  Region Size  %age Used
              RAM:        2784 B       128 KB      2.12%
-           FLASH:       22388 B       512 KB      4.27%
+           FLASH:       22348 B       512 KB      4.26%
 
 
 >>> postbuild

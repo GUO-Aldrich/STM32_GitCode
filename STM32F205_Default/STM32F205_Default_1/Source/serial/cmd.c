@@ -22,14 +22,18 @@ int plus(int a, int b)
 {
 	return a + b;
 }
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN), plus, plus, test);
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), plus, plus, test);
 
 // 加法运算
-void Debug(void)
+void Debug(uint8_t i)
 {
-	LOG_DEBUG("Error: 404 Not Found\r\n");
+    while(i)
+    {
+        printf("Error: 404 Not Found\r\n");
+        HAL_Delay(1000);
+    }
 }
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN), Debug, Debug, test);
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), Debug, Debug, test);
 
 // LED控制
 void led(int state)
@@ -37,7 +41,7 @@ void led(int state)
 	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_10);
 	HAL_GPIO_TogglePin(GPIOD, GPIO_PIN_11);
 }
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN), led, led, test);
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), led, led, test);
 
 void ms_to_hms(uint32_t ms, char *buf)
 {
@@ -55,7 +59,7 @@ int time(void)
 	ms_to_hms(HAL_GetTick(), time_str);
 	printf("系统运行时间: %s\r\n", time_str);
 }
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN), time, time, test);
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), time, time, test);
 
 void show_chip_info(int argc, char *argv[])
 {
@@ -84,7 +88,7 @@ void show_chip_info(int argc, char *argv[])
     printf("%02lu:%02lu:%02lu\r\n", hours, mins, secs);
     printf("==========================================\r\n\r\n");
 }
-SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_MAIN), cfg, show_chip_info, test);
+SHELL_EXPORT_CMD(SHELL_CMD_PERMISSION(0)|SHELL_CMD_TYPE(SHELL_TYPE_CMD_FUNC), cfg, show_chip_info, test);
 
 
 int varInt = 0;

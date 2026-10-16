@@ -176,3 +176,211 @@ These source files will be recompiled
 [2026-09-30 17:49:49]	[done]
 	build successfully !
 
+[2026-09-30 23:01:07]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:01:09]	[done]
+	build successfully !
+
+[2026-09-30 23:01:50]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 23:01:51]	[done]
+	build successfully !
+
+[2026-09-30 23:09:28]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:09:31]	[done]
+	build successfully !
+
+[2026-09-30 23:11:02]	[done]
+	build successfully !
+
+[2026-09-30 23:11:13]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:11:14]	link failed !, exit code: 1
+   at unify_builder.Program.Main(String[] args_)
+---
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: ./build/Debug/.obj/Core/Src/main.o: in function `main':
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1/./Core/Src/main.c:102:(.text.main+0x16): undefined reference to `DebugTask'
+C:/Users/Liyh1/.eide/tools/gcc_arm/bin/../lib/gcc/arm-none-eabi/15.2.1/../../../../arm-none-eabi/bin/ld.exe: (DebugTask): Unknown destination type (ARM/Thumb) in ./build/Debug/.obj/Core/Src/main.o
+c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1/./Core/Src/main.c:102:(.text.main+0x16): dangerous relocation: unsupported relocation
+Memory region         Used Size  Region Size  %age Used
+             RAM:        2784 B       128 KB      2.12%
+           FLASH:       22400 B       512 KB      4.27%
+collect2.exe: error: ld returned 1 exit status
+
+
+[2026-09-30 23:11:35]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 23:11:36]	[done]
+	build successfully !
+
+[2026-09-30 23:11:58]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+
+[2026-09-30 23:12:00]	[done]
+	build successfully !
+
+[2026-09-30 23:12:52]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:12:54]	[done]
+	build successfully !
+
+[2026-09-30 23:14:33]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:14:35]	[done]
+	build successfully !
+
+[2026-09-30 23:15:13]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:15:15]	[done]
+	build successfully !
+
+[2026-09-30 23:15:53]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:15:55]	[done]
+	build successfully !
+
+[2026-09-30 23:16:31]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:16:33]	[done]
+	build successfully !
+
+[2026-09-30 23:17:02]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:17:04]	[done]
+	build successfully !
+
+[2026-09-30 23:17:59]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:18:01]	[done]
+	build successfully !
+
+[2026-09-30 23:18:33]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:18:35]	[done]
+	build successfully !
+
+[2026-09-30 23:19:18]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-09-30 23:19:20]	[done]
+	build successfully !
+
+[2026-10-01 00:06:22]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': source file has been changed.
+
+[2026-10-01 00:06:24]	[done]
+	build successfully !
+
+[2026-10-01 00:08:17]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': source file has been changed.
+
+[2026-10-01 00:08:19]	[done]
+	build successfully !
+
+[2026-10-01 00:08:34]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\shell\shell.c': source file has been changed.
+
+[2026-10-01 00:08:36]	[done]
+	build successfully !
+
+[2026-10-01 13:08:07]	[info] incremental build: 2 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Core\Src\main.c': source file has been changed.
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\startup_stm32f205xx.s': source file has been changed.
+
+[2026-10-01 13:08:09]	compilation failed at : "c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\startup_stm32f205xx.s", exit code: 1
+command: 
+  "C:\Users\Liyh1\.eide\tools\gcc_arm\bin\arm-none-eabi-gcc.exe" -c -x assembler-with-cpp -I. -ICore/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc -IDrivers/STM32F2xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32F2xx/Include -IDrivers/CMSIS/Include -ISource/serial -ISource/shell -mcpu=cortex-m3 -mthumb -g --specs=nano.specs --specs=nosys.specs -o ./build/Debug/.obj/startup_stm32f205xx.o -MMD ./startup_stm32f205xx.s
+   at unify_builder.Program.Main(String[] args_)
+---
+./startup_stm32f205xx.s: Assembler messages:
+./startup_stm32f205xx.s:1: Error: junk at end of line, first unrecognized character is `-'
+./startup_stm32f205xx.s:2: Error: bad size 0 in type specifier
+./startup_stm32f205xx.s:2: Error: bad instruction `startup_stm32f205xx.s'
+
+[2026-10-01 13:14:34]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\startup_stm32f205xx.s': object (.o) file not exist
+
+[2026-10-01 13:14:38]	[done]
+	build successfully !
+
+[2026-10-01 13:15:52]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-10-01 13:15:54]	[done]
+	build successfully !
+
+[2026-10-01 13:16:32]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-10-01 13:16:34]	[done]
+	build successfully !
+
+[2026-10-04 13:13:50]	[info] incremental build: 1 source files changed
+These source files will be recompiled
+---
+'c:\Users\Liyh1\Desktop\STM32_GitCode\STM32F205_Default\STM32F205_Default_1\Source\serial\cmd.c': source file has been changed.
+
+[2026-10-04 13:13:56]	[done]
+	build successfully !
+
