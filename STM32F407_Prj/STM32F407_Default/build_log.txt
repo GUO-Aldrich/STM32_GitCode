@@ -1,0 +1,194 @@
+﻿========== CC ==========
+CC FAIL: Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart_ex.c
+CC done. 17 files, 1 errors.
+
+========== LINK ==========
+LINK FAILED
+arm-none-eabi-gcc : E:/ARM_GCC/bin/../lib/gcc/ar
+m-none-eabi/14.3.1/../../../../arm-none-eabi/bin
+/ld.exe: error: build/Debug/STM32F407_Default.el
+f uses VFP register arguments, C:\Users\Guo_JT\D
+esktop\STM32_GitCode\STM32F407_Prj\STM32F407_Def
+ault\build\Debug\.obj\Core\Src\stm32f4xx_hal_msp
+.o does not
+所在位置 行:1 字符: 12
++ $linkOut = arm-none-eabi-gcc @objs @CPU @LDFL 
+-o build/Debug/STM32F40 ...
++            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (E: 
+   /ARM_GCC/bin/..._msp.o does not:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandErro 
+   r
+ 
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Core\Src\stm32f4xx_hal_
+msp.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Core\Src\syscalls.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Core\Src\syscalls.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Core\Src\sysmem.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Core\Src\sysmem.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Core\Src\system_stm32f4xx.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Core\Src\system_stm32f4
+xx.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_dma.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_dma.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_dma_ex.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_dma_ex.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_exti.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_exti.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_flash.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_flash.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_flash_ex.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_flash_ex.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_flash_ramfunc.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_flash_ramfunc.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_pwr.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_pwr.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal
+_pwr_ex.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Drivers\STM32F4xx_HAL_D
+river\Src\stm32f4xx_hal_pwr_ex.o
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: error: buil
+d/Debug/STM32F407_Default.elf uses VFP register 
+arguments, C:\Users\Guo_JT\Desktop\STM32_GitCode
+\STM32F407_Prj\STM32F407_Default\build\Debug\.ob
+j\Source\shell\shell_companion.o does not
+E:/ARM_GCC/bin/../lib/gcc/arm-none-eabi/14.3.1/.
+./../../../arm-none-eabi/bin/ld.exe: failed to m
+erge target specific data of file C:\Users\Guo_J
+T\Desktop\STM32_GitCode\STM32F407_Prj\STM32F407_
+Default\build\Debug\.obj\Source\shell\shell_comp
+anion.o
+collect2.exe: error: ld returned 1 exit status
+
+
+========== FLASH ==========
+Info : CMSIS-DAP: SWD supported
+Info : CMSIS-DAP: Atomic commands supported
+Info : CMSIS-DAP: Test domain timer supported
+Info : CMSIS-DAP: FW Version = 魔女科技
+Info : CMSIS-DAP: Interface Initialised (SWD)
+Info : CMSIS-DAP: Interface ready
+Info : starting gdb server for stm32f4x.cpu on 3333
+** Programming Started **
+Error: couldn't open build/Debug/STM32F407_Default.elf
+** Programming Failed **
